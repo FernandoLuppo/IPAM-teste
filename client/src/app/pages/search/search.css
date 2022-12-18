@@ -1,6 +1,6 @@
 /* ---------- Container ---------- */
 .search-container {
-    min-height: calc(100vh);
+    min-height: 100vh;
     background-color: #dfdfdf;
 }
 .search-container > div {

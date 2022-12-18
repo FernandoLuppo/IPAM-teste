@@ -30,7 +30,6 @@ export const Search = () => {
     const handleSelectorCity = (e) => {
         cities.forEach(response => {
             if(response.nome == e.target.value) {
-                console.log(response);
                 setCity(response)
             }
         })

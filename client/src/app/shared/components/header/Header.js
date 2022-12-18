@@ -29,7 +29,6 @@ export const Header = () => {
                         <li><Link to="/search" className="header-link">Search</Link></li>
                     </ul>
                 </div>
-
             </nav>
         </header>
     )
