@@ -10,7 +10,7 @@
 /* ---------- Content ---------- */
 .search-content {
     margin: auto;
-    margin-top: 40px;
+    margin-top: 20px;
     width: 50%;
     padding: 20px 40px;
     border-radius: 10px;
@@ -59,23 +59,12 @@
 }
 
 /* ---------- Media Query ---------- */
-@media (max-width: 1366px) {
+@media (max-width: 1330px) {
     .search-container {
         height: 100vh;
-    }
-}
-@media (max-width: 1280px) {
-    .search-container {
-        height: calc(100vh + 100px);
-    }
-    .search-container > div {
-        padding-bottom: 40px;
     }
 }
 @media (max-width: 1040px) {
-    .search-container {
-        height: 100vh;
-    }
     .search-content {
         width: 70%;
     }
@@ -86,9 +75,8 @@
     }
 }
 @media (max-width: 570px) {
-    .search-container > div {
-        padding-top: 20px;  
-        padding-bottom: 20px;
+    .search-container {
+        height: 105vh;
     }
     .search-content > h1 {
         font-size: 23px;
@@ -105,8 +93,13 @@
         margin-bottom: 20px;
     }
 }
+@media (max-width: 393px) {
+    .search-container {
+        height: 110vh;
+    }
+}
 @media (max-width: 375px) {
     .search-container {
-        height: 125vh;
+        height: 143vh;
     }
 }

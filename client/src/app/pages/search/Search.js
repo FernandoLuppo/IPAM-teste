@@ -89,6 +89,14 @@ export const Search = () => {
                                             <p><strong>Nome:</strong> {city.microrregiao.mesorregiao.UF.nome}</p>
                                         </div>
                                     </div>
+                                    <div>
+                                        <h3>Região</h3>
+                                        <div>
+                                            <p><strong>ID:</strong> {city.microrregiao.mesorregiao.UF.regiao.id}</p>
+                                            <p><strong>Sigla:</strong> {city.microrregiao.mesorregiao.UF.regiao.sigla}</p>
+                                            <p><strong>Nome:</strong> {city.microrregiao.mesorregiao.UF.regiao.nome}</p>
+                                        </div>
+                                    </div>
                                 </div>
                             )}
                         </div>
